@@ -13,8 +13,10 @@ test('Edit Webtable', async ({ page }) => {
     // Click Edit button in the 2nd row
     await row.locator('span[title="Edit"]').click();
 
+
     // Update Salary
     await page.getByPlaceholder("Salary").fill('300000');
+    await page.waitForTimeout(2000);
 
     // Submit updated record
     await page.locator('//button[@id="submit"]').click();
