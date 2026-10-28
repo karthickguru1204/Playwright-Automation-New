@@ -1,0 +1,8 @@
+karthick
+GG
+28
+karthick1234@example.com
+200000
+Testing
+
+Employee found: true

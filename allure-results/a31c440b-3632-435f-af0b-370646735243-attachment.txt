@@ -1,0 +1,4 @@
+Product count: 50
+Prices count: 50
+Minimum price: 150
+Product name: [ 'Boys Cotton Tshirts' ]
